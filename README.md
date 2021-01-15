@@ -10,3 +10,5 @@ A simple Blogging Application which let's the User to edit and manage posts.
   * User Authentication using browsers cookies and server session
   * User can create, edit, delete posts
   * Infinite Scroll using **onscreen** library
+### Preview
+<img width="700" height="350" src='/Project-01-BloggerMan/z-Gif-workFlow/video01.gif' />
