@@ -1,0 +1,29 @@
+{
+  "name": "cors-mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm start ",
+    "dev": "concurrently -n 'server,client' -c ''red,green \"nodemon server.js \" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "connect-mongo": "^3.2.0",
+    "connect-mongodb-session": "^2.4.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongo-store": "0.0.2",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0"
+  }
+}

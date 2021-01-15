@@ -1,0 +1,17 @@
+.containerNav {
+  max-width: 600px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 200;
+}
+
+.btns {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.btns:active span {
+  color: rgb(172, 172, 172);
+}

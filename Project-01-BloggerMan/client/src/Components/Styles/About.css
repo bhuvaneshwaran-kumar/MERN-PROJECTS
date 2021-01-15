@@ -1,0 +1,90 @@
+.About {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.outer {
+  box-shadow: 0px 2px 9px 0px rgba(150, 150, 150, 0.75);
+  margin-bottom: 10px;
+}
+.r {
+  width: 300px;
+}
+.title,
+.content {
+  width: 100%;
+  color: black;
+}
+textarea {
+  min-height: 200px;
+}
+.title {
+  font-weight: bold;
+  background-color: rgb(7, 167, 167);
+  border: none;
+  padding: 10px 5px;
+}
+.elm {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+li,
+.li {
+  list-style: none;
+  float: right;
+  /* display: inline-block; */
+
+  border: none;
+  padding: 0px 10px 4px 10px;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+button,
+input[type="submit"] {
+  background: none;
+  color: inherit;
+  border: none;
+
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+}
+button:active,
+input[type="submit"]:active {
+  background: none;
+  color: inherit;
+  border: none;
+
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.delete:active {
+  color: red;
+}
+.edit:active {
+  color: blue;
+}
+.delete:active {
+  color: red;
+}
+.delete {
+  top: 500px;
+  z-index: 300;
+}
+
+.infinite-loader {
+  width: 50%;
+  margin: auto;
+  height: 2px;
+  /* border: 1px solid black; */
+  background-color: #ffffff;
+  box-shadow: 0px 2px 9px 0px rgba(150, 150, 150, 0.75);
+}
